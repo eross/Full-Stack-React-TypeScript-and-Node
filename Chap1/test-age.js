@@ -7,10 +7,8 @@ function canDrive(usr) {
         console.log("do not allow to drive");
     }
 }
-// let’s pretend sometime later someone else uses the function canDrive 
-// with the user tom that has no age property     
 var tom = {
     name: "tom",
-    age: 25
+    age: 24
 };
 canDrive(tom);

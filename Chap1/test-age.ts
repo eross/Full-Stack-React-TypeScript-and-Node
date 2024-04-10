@@ -15,7 +15,8 @@ function canDrive(usr: User) {
       
 const tom = { 
     name: "tom",
-    age: 25
+    age: 24
+  
 } 
 
 canDrive(tom);
